@@ -1,0 +1,45 @@
+* {margin: 2px;}
+body {
+  font-family: "Times New Roman", serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+ #nav {
+   display: inline-block;
+   width: 100%;
+   position: sticky;
+   top: 5px;
+   background-color: lawngreen;
+   text-decoration: none;
+ }
+
+#nav ul li {
+  list-style:none;
+  float: left;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+}
+
+#nav ul li:hover {
+  background-color: lightseagreen;
+}
+
+#nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+p {
+  text-align: justify;
+  font-size: 200%;
+}
+
+.fields input:hover, textarea:hover {
+  background-color: green;
+}
+
